@@ -7,7 +7,7 @@ wanandroid  api 练习 demo
   
   
 哔哩哔哩直播  
-<img src="https://github.com/sanlisanli/bilibililive/blob/master/imgs/bili001.jpg" width="260" height="480"/>   
+<img src="https://github.com/sanlisanli/wanandroid/blob/master/imgs/wan001.jpg" width="260" height="480"/>   
     
     
     
