@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/main_home"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:layout_width="@dimen/tab_icon"
+            android:layout_height="@dimen/tab_icon"
+            android:src="@drawable/main_home"
+            android:id="@+id/iv_home"/>
+        <TextView
+            android:textColor="#8a8a8a"
+            android:textSize="@dimen/tab_text"
+            android:gravity="center"
+            android:text="首页"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:id="@+id/main_tree"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/iv_tree"
+            android:layout_width="@dimen/tab_icon"
+            android:layout_height="@dimen/tab_icon"
+            android:src="@drawable/main_tree"/>
+        <TextView
+            android:textColor="#8a8a8a"
+            android:textSize="@dimen/tab_text"
+            android:gravity="center"
+            android:text="知识树"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:id="@+id/main_mine"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/iv_mine"
+            android:layout_width="@dimen/tab_icon"
+            android:layout_height="@dimen/tab_icon"
+            android:src="@drawable/main_mine"/>
+        <TextView
+            android:textColor="#8a8a8a"
+            android:textSize="@dimen/tab_text"
+            android:gravity="center"
+            android:text="我的"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

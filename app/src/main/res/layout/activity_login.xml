@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_login"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+        <TextView
+            android:layout_marginStart="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </android.support.v7.widget.Toolbar>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ProgressBar
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/progress_bar"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/ic_account"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+            <include layout="@layout/view_login_account"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"/>
+            <include layout="@layout/view_login_psw"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"/>
+            <RelativeLayout
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_go">
+                <ImageView
+                    android:id="@+id/iv_go"
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:src="@drawable/ic_go"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"/>
+                <TextView
+                    android:layout_marginEnd="6dp"
+                    android:gravity="center_vertical"
+                    android:textSize="16sp"
+                    android:layout_toStartOf="@id/iv_go"
+                    android:textColor="@color/colorPrimary"
+                    android:text="注册账号"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:gravity="center"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="16sp"
+                    android:id="@+id/login_btn"
+                    android:background="@drawable/bg_login"
+                    android:textColor="#fff"
+                    android:text="登录"
+                    android:layout_width="100dp"
+                    android:layout_height="36dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_delete_w_h">28dp</dimen>
+    <dimen name="tab_text">12sp</dimen>
+    <dimen name="tab_icon">24dp</dimen>
+    <dimen name="mine_item">40dp</dimen>
+    <dimen name="mine_text_size">18sp</dimen>
+    <dimen name="main_tb_ic">28dp</dimen>
+</resources>

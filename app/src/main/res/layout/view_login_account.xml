@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="40dp">
+    <EditText
+        android:hint="账号："
+        android:maxLines="1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/et_account"/>
+    <ImageView
+        android:id="@+id/iv_account_delete"
+        android:visibility="invisible"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_width="@dimen/icon_delete_w_h"
+        android:layout_height="@dimen/icon_delete_w_h"
+        android:src="@drawable/ic_delete"/>
+</RelativeLayout>

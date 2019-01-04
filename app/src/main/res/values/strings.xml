@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WanAndroid</string>
+    <string name="load_more">正在加载...</string>
+    <string-array name="home_tab_titles">
+        <item>推荐</item>
+        <item>Android</item>
+        <item>JavaScript</item>
+        <item>CSS</item>
+        <item>HTML</item>
+    </string-array>
+</resources>
